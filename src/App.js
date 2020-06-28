@@ -13,7 +13,7 @@ function App() {
 }, []);
 
   if (!data.length) {
-    return <div style={{ display: 'flex', justifyContent: 'center',alignItems: "center"}}>
+    return <div style={{ display: 'flex', justifyContent: 'center',marginTop:'50%'}}>
       <Loader
         type="Puff"
         color="#00BFFF"
