@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdLocalHospital } from 'react-icons/md';
 import Axios from 'axios';
 import Loader from 'react-loader-spinner'
-import { WhatsappIcon, TwitterShareButton, TwitterIcon, WhatsappShareButton, FacebookShareButton, FacebookIcon } from 'react-share';
+import { WhatsappIcon, WhatsappShareButton, FacebookShareButton, FacebookIcon } from 'react-share';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 function App() {
   const [data, setData] = useState([]);
